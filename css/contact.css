@@ -1,0 +1,54 @@
+.contactWrap {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contactContainer {
+  height: 55vh;
+  width: 85%;
+  max-width: 1224px;
+  background: linear-gradient(#f9fbff, #fcfcfc); }
+
+form {
+  height: 60%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  font-family: Raleway;
+  line-height: 2;
+  padding: 25px;
+  font-size: 1.3rem; }
+
+form div {
+  width: 100%; }
+
+form input, form textarea {
+  display: block;
+  width: 80%; }
+
+form textarea {
+  height: 150px; }
+
+form input {
+  margin-bottom: 20px;
+  height: 25px; }
+
+.contactContainer h1 {
+  color: black;
+  font-size: 5.1rem;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: Raleway;
+  font-weight: lighter; }
+
+button {
+  font-size: 1.3rem;
+  padding: 5px 50px;
+  margin-top: 25px;
+  font-family: Raleway; }
+
+/*# sourceMappingURL=contact.css.map */
