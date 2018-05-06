@@ -36,6 +36,8 @@ function submitForm(e){
   setTimeout(function(){
     document.querySelector('.alert').style.display = "none";
   }, 3000);
+
+  contactForm.reset();
 }
 
 //Function to get form values

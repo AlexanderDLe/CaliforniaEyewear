@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$transW1".
-        on line 19 of sass/nav.sass
+        on line 20 of sass/nav.sass
 
-14:   transition: all .5s ease-in-out
-15: 
-16: .navContainer li, .navContainer ul
-17:   display: inline-block
-18: .navContainer h1
-19:   color: $transW1
-20:   font-weight: lighter
-21: .navContainer a
-22:   color: $transW1
-23:   text-decoration: none
-24:   font-size: 1.5rem
+15:   transition: all .5s ease-in-out
+16: 
+17: .navContainer li, .navContainer ul
+18:   display: inline-block
+19: .navContainer h1
+20:   color: $transW1
+21:   font-weight: lighter
+22: .navContainer a
+23:   color: $transW1
+24:   text-decoration: none
+25:   font-size: 1.5rem
 
 Backtrace:
-sass/nav.sass:19
+sass/nav.sass:20
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -69,4 +69,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$transW1\".\A         on line 19 of sass/nav.sass\A \A 14:   transition: all .5s ease-in-out\A 15: \A 16: .navContainer li, .navContainer ul\A 17:   display: inline-block\A 18: .navContainer h1\A 19:   color: $transW1\A 20:   font-weight: lighter\A 21: .navContainer a\A 22:   color: $transW1\A 23:   text-decoration: none\A 24:   font-size: 1.5rem"; }
+  content: "Error: Undefined variable: \"$transW1\".\A         on line 20 of sass/nav.sass\A \A 15:   transition: all .5s ease-in-out\A 16: \A 17: .navContainer li, .navContainer ul\A 18:   display: inline-block\A 19: .navContainer h1\A 20:   color: $transW1\A 21:   font-weight: lighter\A 22: .navContainer a\A 23:   color: $transW1\A 24:   text-decoration: none\A 25:   font-size: 1.5rem"; }

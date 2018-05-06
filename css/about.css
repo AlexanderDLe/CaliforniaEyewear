@@ -6,11 +6,11 @@ Error: Undefined variable: "$BGColor1".
 2:   height: auto
 3:   width: 100%
 4:   background-color: $BGColor1
-5: .aboutContainer
-6:   margin: 0 auto
-7:   // width: 1224px
-8:   height: 100%
-9:   display: grid
+5:   overflow-x: hidden
+6: 
+7: .aboutContainer
+8:   margin: 0 auto
+9:   // width: 1224px
 
 Backtrace:
 sass/about.sass:4
@@ -67,4 +67,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$BGColor1\".\A         on line 4 of sass/about.sass\A \A 1: .aboutWrap\A 2:   height: auto\A 3:   width: 100%\A 4:   background-color: $BGColor1\A 5: .aboutContainer\A 6:   margin: 0 auto\A 7:   // width: 1224px\A 8:   height: 100%\A 9:   display: grid"; }
+  content: "Error: Undefined variable: \"$BGColor1\".\A         on line 4 of sass/about.sass\A \A 1: .aboutWrap\A 2:   height: auto\A 3:   width: 100%\A 4:   background-color: $BGColor1\A 5:   overflow-x: hidden\A 6: \A 7: .aboutContainer\A 8:   margin: 0 auto\A 9:   // width: 1224px"; }

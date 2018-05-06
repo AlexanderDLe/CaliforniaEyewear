@@ -34,7 +34,8 @@
   height: 84px;
   align-items: center;
   justify-content: space-around;
-  font-family: Raleway; }
+  font-family: Raleway;
+  overflow-x: hidden; }
 
 .navBGON {
   background-color: rgba(0, 0, 0, 0.92);
@@ -113,7 +114,8 @@
 .aboutWrap {
   height: auto;
   width: 100%;
-  background-color: white; }
+  background-color: white;
+  overflow-x: hidden; }
 
 .aboutContainer {
   margin: 0 auto;
@@ -354,7 +356,7 @@ form input, form textarea {
   margin: auto; }
 
 form textarea {
-  height: 150px; }
+  height: 155px; }
 
 form input {
   margin-bottom: 20px;
@@ -377,6 +379,9 @@ button {
   width: 95%;
   border: none; }
 
+label {
+  margin-left: 10px; }
+
 @media (max-width: 950px) {
   form {
     height: 60%;
@@ -385,6 +390,9 @@ button {
 
   button {
     margin-left: 15px; } }
+@media (max-width: 650px) {
+  .contactContainer {
+    width: 98%; } }
 * {
   margin: 0;
   padding: 0;
@@ -404,7 +412,8 @@ footer .footerDiv {
 footer {
   color: white;
   font-family: Raleway;
-  font-weight: lighter; }
+  font-weight: lighter;
+  overflow-x: hidden; }
 
 .footerLogo {
   height: auto;
