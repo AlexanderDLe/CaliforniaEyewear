@@ -82,6 +82,18 @@
     display: none
   .aboutHeader
     grid-template-columns: 1fr
+  .aboutContainer
+    grid-template-columns: 1fr
+  .aboutImg img
+    object-fit: contain
+    height: auto
+    width: 50%
+    min-width: 300px
+  .aboutText
+    padding: 50px
+  @media (max-width: 650px)
+    .aboutText
+      padding: 10px
 @media (min-width: 951px)
   .aboutHeader
     grid-template-columns: 1fr 1fr
