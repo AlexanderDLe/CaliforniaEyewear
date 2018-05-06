@@ -89,30 +89,30 @@
 <div class="contactWrap" id="contact">
   <div class="contactContainer">
     <h1>Contact</h1>
-
-    <form>
+    <div class="alert">Your Message has been sent!</div>
+    <form id="contactForm">
       <div class="contactBox1">
         <p>
           <label>Name</label>
-          <input type="text" name="Name">
+          <input type="text" name="Name" id="name">
         </p>
         <p>
           <label>Email</label>
-          <input type="email" name="email">
+          <input type="text" name="email" id="email">
         </p>
         <p>
           <label>Subject</label>
-          <input type="subject" name="subject">
+          <input type="subject" name="subject" id="subject">
         </p>
       </div>
 
       <div class="contactBox2">
         <p>
           <label>Message</label>
-          <textarea type="Message" name="Message" class="messageBox"></textarea>
+          <textarea type="Message" name="Message" class="messageBox" id="message"></textarea>
         </p>
         <p>
-          <button>Submit</button>
+          <button type="submit" id="submit">Submit</button>
         </p>
       </div>
 
@@ -166,8 +166,8 @@
 
 
 
-
-
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script src="scripts/contact.js"></script>
 <script src="scripts/para.js"></script>
 </body>
 </html>

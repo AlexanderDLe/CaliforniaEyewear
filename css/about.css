@@ -3,7 +3,7 @@ Error: Undefined variable: "$BGColor1".
         on line 4 of sass/about.sass
 
 1: .aboutWrap
-2:   height: 60vh
+2:   height: auto
 3:   width: 100%
 4:   background-color: $BGColor1
 5: .aboutContainer
@@ -67,4 +67,4 @@ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$BGColor1\".\A         on line 4 of sass/about.sass\A \A 1: .aboutWrap\A 2:   height: 60vh\A 3:   width: 100%\A 4:   background-color: $BGColor1\A 5: .aboutContainer\A 6:   margin: 0 auto\A 7:   // width: 1224px\A 8:   height: 100%\A 9:   display: grid"; }
+  content: "Error: Undefined variable: \"$BGColor1\".\A         on line 4 of sass/about.sass\A \A 1: .aboutWrap\A 2:   height: auto\A 3:   width: 100%\A 4:   background-color: $BGColor1\A 5: .aboutContainer\A 6:   margin: 0 auto\A 7:   // width: 1224px\A 8:   height: 100%\A 9:   display: grid"; }

@@ -8,7 +8,7 @@ let navList2 = document.querySelector(".navList2");
 let navDropdown = document.querySelector(".navDropdown");
 window.addEventListener('scroll', function(){
   let windowHeight = window.innerHeight;
-  console.log(scrollY);
+  // console.log(scrollY);
   let scrollY2 = scrollY - galleryWrap.offsetTop;
   landingWrap.style.backgroundPositionY = (scrollY*.25) + "px";
   galleryWrap.style.backgroundPositionY = (scrollY2*.25) + "px";
